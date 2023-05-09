@@ -1,0 +1,48 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 40px 20px;
+
+    @media(max-width:767px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.sortByContainer {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    button {
+        border: 0;
+        padding: 10px 30px;
+        border-radius: 8px;
+        background: -webkit-linear-gradient(left, #B100CE,
+                #2341DF,
+                #2B88DD);
+        color: #fff;
+
+        &:hover {
+            filter: brightness(1.1);
+        }
+    }
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 20px;
+    input {
+        max-width: 300px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+        border: 0;
+        
+    }
+}

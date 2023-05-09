@@ -1,0 +1,35 @@
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --linear-gradient-text: linear-gradient(#B100CE, #2341DF, #2B88DD)
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: #0A0A0E;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

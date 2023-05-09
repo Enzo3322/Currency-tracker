@@ -1,0 +1,44 @@
+.hero {
+  display: flex;
+  max-width: 1120px;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  color: #fff;
+  height: 405px;
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    h1 {
+      font-size: 80px;
+      max-width: 385px;
+      line-height: 70px;
+      font-weight: 600;
+      text-align: right;
+      background: -webkit-linear-gradient(left, #B100CE,
+          #2341DF,
+          #2B88DD);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      font-size: 22px;
+      font-weight: 300;
+      text-align: right;
+      max-width: 340px;
+      margin-top: 40px;
+      color: #d9d9d9;
+    }
+  }
+
+  .logo {
+    svg {
+      max-width: 300px;
+      max-height: 300px;
+    }
+  }
+}
